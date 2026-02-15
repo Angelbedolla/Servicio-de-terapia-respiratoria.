@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servicios de Terapia Respiratoria</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: #f4f9fb;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(rgba(10,108,116,0.75), rgba(15,157,166,0.75)),
+                  url('c:\Users\migue\OneDrive\Escritorio\Fond1.jpeg'); /* 👈 Coloca tu imagen dentro de una carpeta llamada "img" y nómbrala "portada.jpg" */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 25px;
+      background: white;
+      color: #0f9da6;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 30px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #e0f7f8;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2rem;
+      color: #0a6c74;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      color: #0f9da6;
+      margin-bottom: 15px;
+    }
+
+    .about {
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    .contact {
+      background: #0f9da6;
+      color: white;
+      border-radius: 20px;
+      padding: 40px 20px;
+    }
+
+    .contact form {
+      display: grid;
+      gap: 15px;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .contact input, .contact textarea {
+      padding: 12px;
+      border-radius: 10px;
+      border: none;
+      font-family: inherit;
+    }
+
+    .contact button {
+      padding: 12px;
+      border: none;
+      border-radius: 30px;
+      background: white;
+      color: #0f9da6;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .contact button:hover {
+      background: #e0f7f8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0a6c74;
+      color: white;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 2rem; }
+      .section-title { font-size: 1.6rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Servicios de Terapia Respiratoria</h1>
+  <p>Atención profesional y especializada para mejorar tu salud pulmonar y calidad de vida.</p>
+  <a href="#contacto" class="btn">Contáctanos</a>
+</header>
+
+
+
+<section>
+  <h2 class="section-title">Sobre Nosotros</h2>
+  <p class="about">
+    Somos un equipo de profesionales certificados en terapia respiratoria comprometidos con brindar atención humana, segura y de calidad.
+    Nuestro objetivo es ayudarte a respirar mejor y vivir con mayor bienestar.
+  </p>
+</section>
+
+<section>
+  <h2 class="section-title">Estudio de Apnea del Sueño</h2>
+  
+  <p style="text-align:center; max-width:900px; margin:0 auto 40px auto; line-height:1.6;">
+    El estudio de sueño es una prueba diagnóstica que permite detectar apnea del sueño y otros trastornos respiratorios del dormir, evaluando la respiración, oxigenación y patrones de descanso del paciente.
+  </p>
+
+  <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:20px; margin-bottom:40px;">
+    <img src="TTR.1.jpeg" alt="Paciente realizando estudio de sueño" style="width:100%; border-radius:20px; box-shadow:0 8px 20px rgba(0,0,0,0.1); height:260px; object-fit:cover;">
+
+    <img src="Amnea2.jpeg" alt="Monitoreo respiratorio nocturno" style="width:100%; border-radius:20px; box-shadow:0 8px 20px rgba(0,0,0,0.1); height:260px; object-fit:cover;">
+  </div>
+
+  <div style="max-width:900px; margin:auto;">
+    <ul style="line-height:1.9; padding-left:20px;">
+      <li>Evaluación de apnea del sueño</li>
+      <li>Medición de respiración y oxigenación nocturna</li>
+      <li>Registro de eventos respiratorios durante el sueño</li>
+      <li>Estudio no invasivo y seguro</li>
+      <li>Interpretación por personal especializado</li>
+    </ul>
+
+    <p style="margin-top:20px; font-weight:700; color:#0a6c74;">Indicado para:</p>
+    <p style="line-height:1.6;">
+      Personas con ronquido frecuente, pausas respiratorias al dormir, somnolencia diurna, fatiga crónica, hipertensión o sospecha de apnea del sueño.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-title">Espirometría – Estudio de Función Pulmonar</h2>
+  <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:30px; align-items:center;">
+    <div>
+      <img src="Espirometria.jpeg" alt="Paciente realizando espirometría" style="width:100%; border-radius:20px; box-shadow:0 8px 20px rgba(0,0,0,0.1);">
+    </div>
+    <div>
+      <p style="margin-bottom:15px; line-height:1.6;">
+        La espirometría es un estudio diagnóstico que permite evaluar la función pulmonar, midiendo la capacidad y el flujo de aire durante la respiración.
+      </p>
+      <ul style="line-height:1.8; padding-left:20px;">
+        <li>Medición de volúmenes y flujos pulmonares</li>
+        <li>Evaluación de función respiratoria</li>
+        <li>Apoyo en diagnóstico y seguimiento clínico</li>
+        <li>Estudio no invasivo, rápido y seguro</li>
+        <li>Realizado por personal especializado</li>
+      </ul>
+      <p style="margin-top:20px; font-weight:700; color:#0a6c74;">Indicada para:</p>
+      <p style="line-height:1.6;">
+        Pacientes con dificultad respiratoria, tos crónica, asma, EPOC, enfermedades pulmonares, fumadores, post COVID, evaluación pre y post quirúrgica y seguimiento de tratamientos respiratorios.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-title">Terapia Especializada para Pacientes Críticos a Domicilio</h2>
+  <p style="text-align:center; max-width:900px; margin:0 auto 40px auto; line-height:1.6;">
+    <strong>REHABILITA – Terapia y Restauración Física</strong><br>
+    Servicio dirigido a pacientes con condiciones médicas complejas o críticas que requieren rehabilitación avanzada fuera del entorno hospitalario, garantizando continuidad del cuidado, seguridad y atención especializada en casa.
+  </p>
+
+  <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap:20px; margin-bottom:40px;">
+    <img src="Terapia1.jpeg" alt="Atención domiciliaria especializada" style="width:100%; border-radius:20px; box-shadow:0 8px 20px rgba(0,0,0,0.1); height:250px; object-fit:cover;">
+
+    <img src="Terapia2.jpeg" alt="Terapia respiratoria avanzada" style="width:100%; border-radius:20px; box-shadow:0 8px 20px rgba(0,0,0,0.1); height:250px; object-fit:cover;">
+
+    <img src="Terapia3.jpeg" alt="Equipo médico especializado" style="width:100%; border-radius:20px; box-shadow:0 8px 20px rgba(0,0,0,0.1); height:250px; object-fit:cover;">
+
+    <img src="Terapia4.jpeg" alt="Rehabilitación post UCI" style="width:100%; border-radius:20px; box-shadow:0 8px 20px rgba(0,0,0,0.1); height:250px; object-fit:cover;">
+  </div>
+
+  <div style="max-width:900px; margin:auto;">
+    <ul style="line-height:1.9; padding-left:20px;">
+      <li>Rehabilitación integral a pacientes críticos</li>
+      <li>Terapia respiratoria, motora y neurológica</li>
+      <li>Manejo de pacientes con traqueostomía</li>
+      <li>Apoyo en pacientes post UCI y post extubación</li>
+      <li>Uso de equipos especializados (máquina de tos, chaleco percutor, estimulación neuromuscular)</li>
+      <li>Atención domiciliaria por personal certificado</li>
+    </ul>
+
+    <p style="margin-top:20px; font-weight:700; color:#0a6c74;">Indicado para:</p>
+    <p style="line-height:1.6;">
+      Pacientes dados de alta hospitalaria con alto grado de dependencia, pacientes neurológicos complejos, pacientes con ventilación no invasiva, traqueostomía o secuelas de estancia prolongada en UCI.
+    </p>
+  </div>
+</section>
+
+<section id="contacto">
+  <div class="contact">
+    <h2 class="section-title" style="color:white;">Contáctanos</h2>
+    <div style="text-align:center; line-height:2; font-size:1.1rem;">
+      <p><strong>Ciudad:</strong>Tijuana BC</p>
+      <p><strong>TTR:</strong>Kelvin Bedolla Chavez</p>
+      <p><strong>Teléfono fijo:</strong> 664-333-3703</p>
+      <p><strong>WhatsApp:</strong> 55-4474-99-50</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Servicios de Terapia Respiratoria Miguel Angel Bedolla Chavez | Todos los derechos reservados
+</footer>
+
+</body>
+</html>
