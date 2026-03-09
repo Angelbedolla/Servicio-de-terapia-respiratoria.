@@ -151,30 +151,16 @@ background:#0a6c74;
 color:white;
 font-size:.9rem;
 }
-
-@media(max-width:600px){
-header h1{font-size:2rem;}
-.section-title{font-size:1.6rem;}
-}
-
 @media (max-width:768px){
 
-.perfil{
-display:flex;
-flex-direction:column;
-align-items:center;
+section div[style*="grid-template-columns:250px 1fr"]{
+grid-template-columns:1fr !important;
 text-align:center;
-gap:20px;
 }
 
-.perfil img{
-width:220px;
-height:auto;
-border-radius:50%;
-}
-
-.perfil div{
-max-width:90%;
+section div[style*="grid-template-columns:250px 1fr"] p{
+margin-top:20px;
+text-align:left;
 }
 
 }
@@ -363,6 +349,8 @@ quirúrgica y seguimiento de tratamientos respiratorios.
 
 </body>
 </html>
+
+
 
 
 
